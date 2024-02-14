@@ -8,5 +8,7 @@
 
 ### Install
 ```bash
+git clone https://github.com/unrealapex/st
+cd st
 sudo make clean install
 ```
