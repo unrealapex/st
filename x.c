@@ -246,7 +246,7 @@ static double usedfontsize = 0;
 static double defaultfontsize = 0;
 
 static char *opt_alpha = NULL;
-static char *opt_class = NULL;
+static char *opt_class = "st";
 static char **opt_cmd  = NULL;
 static char *opt_embed = NULL;
 static char *opt_font  = NULL;
