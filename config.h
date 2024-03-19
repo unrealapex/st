@@ -202,7 +202,14 @@ static MouseShortcut mshortcuts[] = {
 	{ XK_ANY_MOD,           Button5, ttysend,        {.s = "\005"} },
 };
 
-static char *pagersearchcmd[] = { "/bin/sh", "-c", "scrollback-pager", "externalpipe", NULL };
+static char *pagersearchcmd[] = {
+    "/bin/sh", "-c",
+    "tmpfile=$(mktemp /tmp/st-edit.XXXXXX);"
+    "trap  \'rm \"$tmpfile\"\' 0 1 15;"
+    "cat > \"$tmpfile\";"
+    "st -e \"less\" \"$tmpfile\"",
+    "externalpipe", NULL
+};
 
 /* Internal keyboard shortcuts. */
 #define MODKEY Mod1Mask
