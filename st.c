@@ -2110,6 +2110,7 @@ strparse(void)
 	}
 }
 
+// TODO: return output with color codes
 void
 externalpipe(const Arg *arg)
 {
