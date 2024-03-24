@@ -229,8 +229,8 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
-	{ ShiftMask,            XK_Up,          kscrollup,      {.i =  40} },
-	{ ShiftMask,            XK_Down,        kscrolldown,    {.i =  40} },
+	{ ShiftMask,            XK_Up,          kscrollup,      {.i =  20} },
+	{ ShiftMask,            XK_Down,        kscrolldown,    {.i =  20} },
 	{ TERMMOD,              XK_F,           externalpipe,   {.v = pagersearchcmd} },
 	{ ControlMask,          XK_BackSpace,   ttysend,        {.s = "\E\x7f"} },
 };
