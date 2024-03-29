@@ -7,6 +7,7 @@
 - [boxdraw](https://st.suckless.org/patches/boxdraw/)
 - [externalpipe](https://st.suckless.org/patches/externalpipe/)
 - [undercurl](https://st.suckless.org/patches/undercurl/)
+- [w3m](https://st.suckless.org/patches/w3m/)
 
 ### Install
 ```bash
