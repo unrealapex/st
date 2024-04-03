@@ -11,7 +11,7 @@
 
 ### Install
 ```bash
-git clone https://github.com/unrealapex/st
+git clone https://git.sr.ht/~unrealapex/st
 cd st
 sudo make clean install
 ```
