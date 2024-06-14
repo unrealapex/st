@@ -10,11 +10,11 @@ In order to build st you need the Xlib header files.
 
 Patches
 ------------
+- boxdraw
 - clipboard
+- externalpipe
 - font2
 - scrollback
-- boxdraw
-- externalpipe
 - undercurl
 
 
