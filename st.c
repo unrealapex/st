@@ -1076,6 +1076,9 @@ tswapscreen(void)
 void
 kscrolldown(const Arg* a)
 {
+  if (allowaltscreen && IS_SET(MODE_ALTSCREEN)) {
+	  return;
+	}
 	int n = a->i;
 
 	if (n < 0)
@@ -1094,6 +1097,9 @@ kscrolldown(const Arg* a)
 void
 kscrollup(const Arg* a)
 {
+  if (allowaltscreen && IS_SET(MODE_ALTSCREEN)) {
+	  return;
+	}
 	int n = a->i;
 
 	if (n < 0)
