@@ -203,6 +203,7 @@ static MouseShortcut mshortcuts[] = {
 	{ XK_ANY_MOD,           Button5, ttysend,        {.s = "\005"} },
 };
 
+/* FIXME: move this to a file */
 static char *pagersearchcmd[] = {
     "/bin/sh", "-c",
     "tmpfile=$(mktemp /tmp/st-edit.XXXXXX);"
