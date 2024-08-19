@@ -10,6 +10,10 @@ MANPREFIX = $(PREFIX)/share/man
 X11INC = /usr/X11R6/include
 X11LIB = /usr/X11R6/lib
 
+# OpenBSD (uncomment)
+# X11INC = /usr/local/include
+# X11LIB = /usr/local/lib
+
 PKG_CONFIG = pkg-config
 
 # includes and libs
