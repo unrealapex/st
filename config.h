@@ -7,7 +7,7 @@
  */
 static char *font = "monospace:pixelsize=14:antialias=true:autohint=true";
 // static char *font = "monospace:pixelsize=16:antialias=true:autohint=true";
-static char *font2 = "Noto Color Emoji:pixelsize=14:antialias=true:autohint=true";
+static char *font2[] = {"Noto Color Emoji:pixelsize=14:antialias=true:autohint=true"};
 static int borderpx = 10;
 
 /*
