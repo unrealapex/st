@@ -9,6 +9,7 @@ static char *font = "monospace:pixelsize=14:antialias=true:autohint=true";
 // static char *font = "monospace:pixelsize=16:antialias=true:autohint=true";
 static char *font2[] = {
 	"Noto Sans CJK JP:pixelsize=14:antialias=true:autohint=true",
+	"Symbols Nerd Font:pixelsize=14:antialias=true:autohint=true"
 	"Noto Color Emoji:pixelsize=14:antialias=true:autohint=true"
 };
 static int borderpx = 10;
