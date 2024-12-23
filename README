@@ -1,5 +1,5 @@
 aaron's build of st
---------------------
+===================
 st is a simple terminal emulator for X which sucks less.
 
 
@@ -9,7 +9,7 @@ In order to build st you need the Xlib header files.
 
 
 Patches
-------------
+-------
 - alpha
 - boxdraw
 - clipboard
@@ -42,5 +42,3 @@ See the man page for additional details.
 Credits
 -------
 Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
-
-.. vim: set filetype=rst
