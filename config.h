@@ -9,7 +9,6 @@ static char *font = "monospace:pixelsize=14:antialias=true:autohint=true";
 // static char *font = "monospace:pixelsize=16:antialias=true:autohint=true";
 static char *font2[] = {
 	"Noto Sans CJK JP:pixelsize=14:antialias=true:autohint=true",
-	"Symbols Nerd Font:pixelsize=14:antialias=true:autohint=true"
 	"Noto Color Emoji:pixelsize=14:antialias=true:autohint=true"
 };
 static int borderpx = 12;
@@ -118,32 +117,32 @@ float alpha = 0.80;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+	"#000000",
+	"#C51E14",
+	"#1DC121",
+	"#C7C329",
+	"#0A2FC4",
+	"#C839C5",
+	"#20C5C6",
+	"#C7C7C7",
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#686868",
+	"#FD6F6B",
+	"#67F86F",
+	"#FFFA72",
+	"#6A76FB",
+	"#FD7CFC",
+	"#68FDFE",
+	"#FFFFFF",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#555555",
-	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+	"#c616b7",
+	"#F08080",
+	"#ffffff", /* default foreground colour */
+	"#000000", /* default background colour */
 };
 
 
